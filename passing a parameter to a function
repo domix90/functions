@@ -1,0 +1,17 @@
+function getRandomNumber( upperLimit) {
+  var randomNumber = Math.floor( Math.random() * upperLimit ) + 1; 
+  return randomNumber;
+}
+
+
+console.log ( getRandomNumber (100000) ) ;
+console.log ( getRandomNumber (10) ) ;
+console.log ( getRandomNumber (51287618372) ) ;
+
+  
+/* You can pass an argument to a function. The function stores that value in a parameter and uses it within the function. 
+
+A function can return a value that can be used in different part of a program. 
+But unlike return value which has to be a single item: a var, string, number, boolean functions can accept multiple arguments. 
+
+When calling a function you can pass multiple arguments which are then stored in separate parameter each! and is used as a separate variable within a function */
