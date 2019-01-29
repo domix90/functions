@@ -15,3 +15,14 @@ A function can return a value that can be used in different part of a program.
 But unlike return value which has to be a single item: a var, string, number, boolean functions can accept multiple arguments. 
 
 When calling a function you can pass multiple arguments which are then stored in separate parameter each! and is used as a separate variable within a function */
+
+/* Now I want to make a simple function that calculates the area of a rectangle, so I have 
+
+area = a * b 'unit type'   */
+
+function getAreaRectangle (lenght, width, unit) {
+  var Area = lenght * width + " " + unit
+  return Area
+}
+
+console.log (getAreaRectangle (99,1268,'sq ft'));
